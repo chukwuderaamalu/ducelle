@@ -435,7 +435,8 @@ h2{
 @media screen and (max-width:991px) {
 
     .fff{
-        word-break: keep-all;
+        white-space: nowrap;
+        line-height: 2;
     }
 
 .sale{
@@ -591,12 +592,14 @@ h2{
 }
 
 .lass{
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 
 ul{
     margin-top: 20px;
+   
 }
 
 li{
