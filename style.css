@@ -594,6 +594,8 @@ h2{
 .lass{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    
 }
 
 
